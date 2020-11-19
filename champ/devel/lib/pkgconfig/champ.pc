@@ -1,0 +1,8 @@
+prefix=/home/addy94/Downloads/machine_learning/skunkworks/champ/devel
+
+Name: champ
+Description: Description of champ
+Version: 0.1.0
+Cflags: -I/home/addy94/Downloads/machine_learning/skunkworks/champ/src/champ/champ/include -I/home/addy94/Downloads/machine_learning/skunkworks/champ/src/champ/champ/include/champ
+Libs: -L${prefix}/lib 
+Requires: 

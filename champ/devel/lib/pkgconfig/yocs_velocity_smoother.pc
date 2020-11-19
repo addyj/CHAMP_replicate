@@ -1,0 +1,8 @@
+prefix=/home/addy94/Downloads/machine_learning/skunkworks/champ/devel
+
+Name: yocs_velocity_smoother
+Description: Description of yocs_velocity_smoother
+Version: 0.12.1
+Cflags: -I/home/addy94/Downloads/machine_learning/skunkworks/champ/devel/include -I/home/addy94/Downloads/machine_learning/skunkworks/champ/src/yocs_velocity_smoother/include
+Libs: -L${prefix}/lib -lyocs_velocity_smoother_nodelet
+Requires: roscpp pluginlib nodelet ecl_threads dynamic_reconfigure geometry_msgs nav_msgs

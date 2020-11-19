@@ -1,0 +1,8 @@
+prefix=/home/addy94/Downloads/machine_learning/skunkworks/champ/devel
+
+Name: spot_msgs
+Description: Description of spot_msgs
+Version: 0.0.0
+Cflags: -I/home/addy94/Downloads/machine_learning/skunkworks/champ/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime
